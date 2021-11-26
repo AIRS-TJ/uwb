@@ -10,7 +10,6 @@
  
 	$ rosrun marvelmind_nav hedge_rcv_bin
   
-  或者
   
   如果端口是/dev/ttyACM1
   
