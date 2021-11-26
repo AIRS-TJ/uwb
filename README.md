@@ -2,7 +2,7 @@
 
 	$ cd ~/catkin_ws/src/
   
-	$ git clone 
+	$ git clone  https://github.com/AIRS-TJ/uwb.git
 
 运行：
 
@@ -14,13 +14,13 @@
   
   如果端口是/dev/ttyACM1
   
-  $ rosrun marvelmind_nav hedge_rcv_bin /dev/ttyACM1
+	$ rosrun marvelmind_nav hedge_rcv_bin /dev/ttyACM1
   
-  $ rosrun marvelmind_nav subscriber_test
+	$ rosrun marvelmind_nav subscriber_test
   
   运行uwb里程计：
   
-   $ rosrun odom hedge_odom
+	$ rosrun odom hedge_odom
     
   
   
