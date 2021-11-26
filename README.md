@@ -14,6 +14,8 @@
   如果端口是/dev/ttyACM1
   
 	$ rosrun marvelmind_nav hedge_rcv_bin /dev/ttyACM1
+	
+运行接受信号节点：
   
 	$ rosrun marvelmind_nav subscriber_test
   
